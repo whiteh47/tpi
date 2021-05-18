@@ -16,7 +16,7 @@ clear
 sleep 2
 printf "[+] Updating your Termux Repo"
 sleep 5 && printf "[+] Please Wait..."
-apt-get install $PName;
+apt-get install $PName -y;
 clear;
 
 SetupStorage="termux-setup-storage" read -p "Do you want to setup storage (Y/N)? >";
